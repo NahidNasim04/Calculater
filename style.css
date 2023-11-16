@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+}
+.Calculator{
+    background: gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+input{
+   
+    width: 320px;
+    height: 60px;
+    border-radius: 10px;
+    background: black;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    padding: 24px;
+    text-align: right;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    font-size: 30px;
+    cursor: pointer;
+}
